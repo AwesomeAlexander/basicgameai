@@ -1,0 +1,53 @@
+!SESSION 2017-08-30 09:09:36.728 -----------------------------------------------
+eclipse.buildId=4.6.2.M20161124-1400
+java.version=1.8.0_121
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.java.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.java.product
+
+!ENTRY org.eclipse.egit.ui 2 0 2017-08-30 09:11:22.514
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\benzr'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.oomph.setup.ui 1 0 2017-08-30 09:11:29.715
+!MESSAGE Setup tasks were performed during startup updating 5 preferences. See 'C:\Users\benzr\eclipse\java-neon\eclipse\configuration\org.eclipse.oomph.setup\setup.log' for details
+
+!ENTRY org.eclipse.egit.ui 4 0 2017-08-30 09:12:56.098
+!MESSAGE Connecting Git team provider failed. See log for details.
+!STACK 1
+org.eclipse.core.runtime.CoreException: Connecting Git team provider failed. See log for details.
+	at org.eclipse.egit.core.op.ConnectProviderOperation.execute(ConnectProviderOperation.java:103)
+	at org.eclipse.egit.ui.internal.clone.GitImportWizard$8.run(GitImportWizard.java:286)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2240)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2262)
+	at org.eclipse.egit.ui.internal.clone.GitImportWizard.importProjects(GitImportWizard.java:291)
+	at org.eclipse.egit.ui.internal.clone.GitImportWizard.access$2(GitImportWizard.java:235)
+	at org.eclipse.egit.ui.internal.clone.GitImportWizard$4.run(GitImportWizard.java:205)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:119)
+Contains: Error connecting project basicgameai, suggested path 'C:\Users\benzr\git\basicgameai\.git' do not match found Git repositories '[RepositoryMapping[<empty> -> '../.git', absolute path: 'C:/Users/benzr/OneDrive/Documents/GitHub/basicgameai/.git' ]]'.
+!SUBENTRY 1 org.eclipse.egit.core 4 0 2017-08-30 09:12:56.151
+!MESSAGE Connecting Git team provider failed. See log for details.
+!SUBENTRY 2 org.eclipse.egit.core 4 0 2017-08-30 09:12:56.151
+!MESSAGE Error connecting project basicgameai, suggested path 'C:\Users\benzr\git\basicgameai\.git' do not match found Git repositories '[RepositoryMapping[<empty> -> '../.git', absolute path: 'C:/Users/benzr/OneDrive/Documents/GitHub/basicgameai/.git' ]]'.
+
+!ENTRY org.eclipse.egit.ui 4 0 2017-08-30 09:17:48.211
+!MESSAGE Connecting Git team provider failed. See log for details.
+!STACK 1
+org.eclipse.core.runtime.CoreException: Connecting Git team provider failed. See log for details.
+	at org.eclipse.egit.core.op.ConnectProviderOperation.execute(ConnectProviderOperation.java:103)
+	at org.eclipse.egit.ui.internal.clone.GitImportWizard$8.run(GitImportWizard.java:286)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2240)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2262)
+	at org.eclipse.egit.ui.internal.clone.GitImportWizard.importProjects(GitImportWizard.java:291)
+	at org.eclipse.egit.ui.internal.clone.GitImportWizard.access$2(GitImportWizard.java:235)
+	at org.eclipse.egit.ui.internal.clone.GitImportWizard$4.run(GitImportWizard.java:205)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:119)
+Contains: Error connecting project basicgameai, suggested path 'C:\Users\benzr\Desktop\Copy of Game\GitHub Projects\basicgameai\.git' do not match found Git repositories '[RepositoryMapping[<empty> -> '../.git', absolute path: 'C:/Users/benzr/OneDrive/Documents/GitHub/basicgameai/.git' ]]'.
+!SUBENTRY 1 org.eclipse.egit.core 4 0 2017-08-30 09:17:48.212
+!MESSAGE Connecting Git team provider failed. See log for details.
+!SUBENTRY 2 org.eclipse.egit.core 4 0 2017-08-30 09:17:48.212
+!MESSAGE Error connecting project basicgameai, suggested path 'C:\Users\benzr\Desktop\Copy of Game\GitHub Projects\basicgameai\.git' do not match found Git repositories '[RepositoryMapping[<empty> -> '../.git', absolute path: 'C:/Users/benzr/OneDrive/Documents/GitHub/basicgameai/.git' ]]'.
